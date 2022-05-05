@@ -55,6 +55,7 @@ table_html = table.get_attribute('innerHTML')
 #     print('Page ' + page_number)
 df1 = pd.read_html(table_html)[0]
 #df1 = pd.to_DataFrame(table_html)
+print(df1)
 
 
 # In[53]:
